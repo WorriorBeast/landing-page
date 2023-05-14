@@ -81,13 +81,16 @@ button {
 
 .header-logo,
 h1,
-button  {
+button,
+.action-white {
     color: #f9faf8;
 }
 
 a,
 .image-placeholder,
-.title-subtext {
+.title-subtext,
+.footer,
+.action-gray {
     color: #e5e7eb;
 }
 
@@ -143,4 +146,33 @@ h2 {
     font-weight: 900;
     text-align: end;
     width: 700px;
+}
+
+.action-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    margin: 80px 100px;
+    padding: 30px 50px;
+    width: 800px;
+    border-radius: 10px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 30px;
+    text-align: center;
+}
+
+.action-footer .action-container button {
+    border-color: #f9faf8;
+    border: solid;
+    align-self: end;
 }
