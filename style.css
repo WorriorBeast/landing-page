@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: roboto;
 }
 
 .header {
@@ -88,4 +89,36 @@ a,
 .image-placeholder,
 .title-subtext {
     color: #e5e7eb;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 50px;
+    color: #1f2937;
+}
+
+.illustration-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.illustration-box {
+    height: 130px;
+    width: 130px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: -10px;
+}
+
+.small-illustration-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+.illustration-subtext {
+    width: 130px;
 }
